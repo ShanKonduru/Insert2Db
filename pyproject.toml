@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "insert2db"
+version = "0.1.0"
+description = "Python code to insert data into various databases"
+authors = ["ShanKonduru <ShanKonduru@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+psycopg2 = "^2.9.9"
+psycopg2-binary = "^2.9.9"
+configparser = "^7.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
